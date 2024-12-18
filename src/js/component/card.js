@@ -22,9 +22,9 @@ const Card = ({ name, type, id }) => {
   type="button"
   className="btn"
   style={{
-    border: "3px solid yellow",
+    border: "1px solid blue",
     backgroundColor: "white",
-    color: "grey",
+    color: "blue",
     fontWeight: "bold",
   }}
   onClick={() => navigate(`/detail-${type}/${id}`)}
